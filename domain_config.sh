@@ -31,4 +31,3 @@ restorecon -rv *
 cd
 cd /var/www/
 chown apache:apache -R $domain
-cd /home/heinsatzin/Documents/bashlab/web_server_program/
