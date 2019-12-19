@@ -1,5 +1,5 @@
 #!/bin/bash
-
+dir=$(pwd)
 #Asking user to install or not.
 echo "If you run this script, it will install httpd,mariadb,php,clamav,rootkit hunter,..."
 read -p "Do u want to run?Y or N." x
