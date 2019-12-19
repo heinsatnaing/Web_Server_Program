@@ -11,19 +11,25 @@ else [ $x = "Y" ];
 fi
 
 #installing php packages
+cd $dir
 source ./pkg_install.sh
 
 #domain configure
+cd $dir
 source ./domain_config.sh
 
 #port openning
+cd $dir
 source ./port_opener.sh
 
 #mysql secure installation
+cd $dir
 source ./mysql_install.sh
 
 #Listening ip
+cd $dir
 source ./Listening_ip.sh
 
 #antivirus
+cd $dir
 source ./antivirus.sh
