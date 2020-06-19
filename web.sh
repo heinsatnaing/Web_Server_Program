@@ -10,7 +10,7 @@ else [ $x = "Y" ];
 	echo "---------Program is starting----------"
 fi
 
-#installing php packages
+#installing php packages from internet
 cd $dir
 source ./pkg_install.sh
 
